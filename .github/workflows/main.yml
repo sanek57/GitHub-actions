@@ -2,6 +2,7 @@ name: Demo Workflow
 on: workflow_dispatch # запуск в ручном режиме
 
 jobs: 
+  # название задачи
   print: 
     # на какой машине/сервере с какой ОС запускается данный workflow 
     runs-on:  ubuntu-latest
