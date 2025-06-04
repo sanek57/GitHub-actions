@@ -1,0 +1,10 @@
+name: Demo Workflow
+on: workflow_dispatch # запуск в ручном режиме
+
+jobs: 
+  print: 
+    # на какой машине/сервере с какой ОС запускается данный workflow 
+    runs-on:  ubuntu-latest
+    steps:
+      - name: Print to console
+        run: echo Hello GitHub Actions!
